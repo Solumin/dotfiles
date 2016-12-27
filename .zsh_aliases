@@ -1,0 +1,21 @@
+## Improved Commands ##
+alias grep='grep --color=always'
+alias ls='ls -h --color=always'
+alias ll='ls -l'
+alias less='less -r'
+alias free='free -h'
+
+## Extra Commands ##
+alias thanks='exit'
+alias -g nets='netctl start'
+alias -g pacup='yaourt -Syau'
+alias pingcheck='ping -c 3 www.google.com'
+alias :e='gvim -p'
+alias start_timidity='timidity -iA -Os'
+
+## Command modifiers
+alias -g colors='--color=always'
+alias doit='sudo !!'
+
+## Git shortcuts
+alias gs='git status'
